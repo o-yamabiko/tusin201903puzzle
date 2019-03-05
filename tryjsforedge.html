@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ja"> <!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>やまびこ通信2018年6月号 Let's Try!!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/jquery.crossword.js"></script>
+	<script src="js/crossword.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="css/crossword.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+<!--[if IE]>
+<style>
+.crossword-board-container {
+        display: none;
+        }
+</style>
+<![endif]-->
+ 
+  
+</head>
+
+<body>
+<div class="container">
+<h2>Let's Try!! <img style="height:3em; position: absolute; top: 1em; left: 330px; z-index: -1;" src="image4.jpg" alt="" /></h2>
+<div class="crossword-intro">色付きのマス目の文字を並べ替え、今の季節を表す下の文を完成させてください。
+    <div class="keyword">○ ○ ○ ○ は ○ ○ ？</div>
+    <div class="attention">「っゃゅょ」のような小文字は、大文字で入力してください。</div>
+</div>
+  <!--input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
+<label for="checkvaliditems">Check for valid squares</label-->
+<div id="puzzle-wrapper"><!-- crossword puzzle appended here --></div>
+
+<div class="crossword-board-container">
+
+	<div class="crossword-board">
+		<!-- ROW 1 -->
+		<input id="item1-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[いイ]{1}$" required="required" value="" />
+		<input id="item1-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[かカ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item1-3"></span>
+		<input id="item1-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[たタ]{1}$" required="required" value="" />
+		<input id="item1-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[ゆユ]{1}$" required="required" value="" />
+		<input id="item1-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[たタ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item1-7"></span>
+		<span class="crossword-board__item--blank2" id="item1-8"></span>
+		<!-- ROW 1 -->
+
+		<!-- ROW 2 -->
+		<span class="crossword-board__item--blank" id="item2-1"></span>
+		<input id="item2-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[まマ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item2-3"></span>
+		<span class="crossword-board__item--blank" id="item2-4"></span>
+		<input id="item2-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[ゆユ]{1}$" required="required" value="" />
+		<input id="item2-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[かカ]{1}$" required="required" value="" />
+		<input id="item2-7" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[りリ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank2" id="item2-8"></span>
+		<!-- ROW 2 -->
+
+		<!-- ROW 3 -->
+		<input id="item3-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[おオ]{1}$" required="required" value="" />
+		<input id="item3-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[びビ]{1}$" required="required" value="" />
+		<input id="item3-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[たタ]{1}$" required="required" value="" />
+		<input id="item3-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[だダ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item3-5"></span>
+		<span class="crossword-board__item--blank" id="item3-6"></span>
+		<input id="item3-7" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[りリ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank2" id="item3-8"></span>
+		<!-- ROW 3 -->
+
+		<!-- ROW 4 -->
+		<input id="item4-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[こコ]{1}$" required="required" value="" />
+		<input id="item4-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[すス]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item4-3"></span>
+		<input id="item4-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[るル]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item4-5"></span>
+		<input id="item4-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[しシ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item4-7"></span>
+		<span class="crossword-board__item--blank2" id="item4-8"></span>
+		<!-- ROW 4 -->
+
+		<!-- ROW 5 -->
+		<span class="crossword-board__item--blank" id="item5-1"></span>
+		<span class="crossword-board__item--blank" id="item5-2"></span>
+		<input id="item5-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[そソ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item5-4"></span>
+		<input id="item5-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[そソ]{1}$" required="required" value="" />
+		<input id="item5-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[ばバ]{1}$" required="required" value="" />
+		<input id="item5-7" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[だダ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank2" id="item5-8"></span>
+		<!-- ROW 5 -->
+
+		<!-- ROW 6 -->
+		<span class="crossword-board__item--blank" id="item6-1"></span>
+		<input id="item6-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[とト]{1}$" required="required" value="" />
+		<input id="item6-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[っッつツ]{1}$" required="required" value="" />
+		<input id="item6-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[さサ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item6-5"></span>
+		<input id="item6-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[しシ]{1}$" required="required" value="" />
+		<input id="item6-7" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[だダ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank2" id="item6-8"></span>
+		<!-- ROW 6 -->
+
+		<!-- ROW 7 -->
+		<input id="item7-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[うウ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item7-2"></span>
+		<input id="item7-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[けケ]{1}$" required="required" value="" />
+		<input id="item7-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[ばバ]{1}$" required="required" value="" />
+		<input id="item7-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[けケ]{1}$" required="required" value="" />
+		<input id="item7-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[ばバ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item7-7"></span>
+		<span class="crossword-board__item--blank2" id="item7-8"></span>
+		<!-- ROW 7 -->
+
+		<!-- ROW 8 -->
+		<span class="crossword-board__item--blank2" id="item8-1"></span>
+		<span class="crossword-board__item--blank2" id="item8-2"></span>
+		<span class="crossword-board__item--blank2" id="item8-3"></span>
+		<span class="crossword-board__item--blank2" id="item8-4"></span>
+		<span class="crossword-board__item--blank2" id="item8-5"></span>
+		<span class="crossword-board__item--blank2" id="item8-6"></span>
+		<span class="crossword-board__item--blank2" id="item8-7"></span>
+		<span class="crossword-board__item--blank2" id="item8-8"></span>
+		<!-- ROW 8 -->
+
+		<!-- ROW 9 -->
+		<input id="item9-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[つツ]{1}$" required="required" value="" />
+		<input id="item9-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[ゆユ]{1}$" required="required" value="" />
+		<input id="item9-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[いイ]{1}$" required="required" value="" />
+		<input id="item9-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[りリ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank2" id="item9-5">は</span>
+		<input id="item9-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[まマ]{1}$" required="required" value="" />
+		<input id="item9-7" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[だダ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank2" id="item9-8">？</span>
+		<!-- ROW 9 -->
+
+<div class="crossword-board crossword-board--highlight crossword-board--highlight--across">
+			<span id="across-1" class="crossword-board__item-highlight crossword-board__item-highlight--across-1"></span>
+			<span id="across-3" class="crossword-board__item-highlight crossword-board__item-highlight--across-3"></span>
+			<span id="across-6" class="crossword-board__item-highlight crossword-board__item-highlight--across-6"></span>
+			<span id="across-8" class="crossword-board__item-highlight crossword-board__item-highlight--across-8"></span>
+			<span id="across-10" class="crossword-board__item-highlight crossword-board__item-highlight--across-10"></span>
+			<span id="across-13" class="crossword-board__item-highlight crossword-board__item-highlight--across-13"></span>
+			<span id="across-15" class="crossword-board__item-highlight crossword-board__item-highlight--across-15"></span>
+			<span id="across-17" class="crossword-board__item-highlight crossword-board__item-highlight--across-17"></span>
+			<span id="across-18" class="crossword-board__item-highlight crossword-board__item-highlight--across-18"></span>
+			<span id="across-19" class="crossword-board__item-highlight crossword-board__item-highlight--across-19"></span>
+			<span id="across-20" class="crossword-board__item-highlight crossword-board__item-highlight--across-20"></span>
+			<span id="across-21" class="crossword-board__item-highlight crossword-board__item-highlight--across-21"></span>
+		</div>
+
+		<div class="crossword-board crossword-board--highlight crossword-board--highlight-down">
+			<span id="down-2" class="crossword-board__item-highlight crossword-board__item-highlight--down-2"></span>
+			<span id="down-4" class="crossword-board__item-highlight crossword-board__item-highlight--down-4"></span>
+			<span id="down-5" class="crossword-board__item-highlight crossword-board__item-highlight--down-5"></span>
+			<span id="down-7" class="crossword-board__item-highlight crossword-board__item-highlight--down-7"></span>
+			<span id="down-8" class="crossword-board__item-highlight crossword-board__item-highlight--down-8"></span>
+			<span id="down-9" class="crossword-board__item-highlight crossword-board__item-highlight--down-9"></span>
+			<span id="down-11" class="crossword-board__item-highlight crossword-board__item-highlight--down-11"></span>
+			<span id="down-12" class="crossword-board__item-highlight crossword-board__item-highlight--down-12"></span>
+			<span id="down-14" class="crossword-board__item-highlight crossword-board__item-highlight--down-14"></span>
+			<span id="down-16" class="crossword-board__item-highlight crossword-board__item-highlight--down-16"></span>
+		</div>
+
+		<div class="crossword-board crossword-board--labels">
+			<span id="label-1" class="crossword-board__item-label crossword-board__item-label--1"><span class="crossword-board__item-label-text">1</span></span>
+			<span id="label-2" class="crossword-board__item-label crossword-board__item-label--2"><span class="crossword-board__item-label-text">2</span></span>
+			<span id="label-3" class="crossword-board__item-label crossword-board__item-label--3"><span class="crossword-board__item-label-text">3</span></span>
+			<span id="label-4" class="crossword-board__item-label crossword-board__item-label--4"><span class="crossword-board__item-label-text">4</span></span>
+			<span id="label-5" class="crossword-board__item-label crossword-board__item-label--5"><span class="crossword-board__item-label-text">5</span></span>
+			<span id="label-6" class="crossword-board__item-label crossword-board__item-label--6"><span class="crossword-board__item-label-text">6</span></span>
+			<span id="label-7" class="crossword-board__item-label crossword-board__item-label--7"><span class="crossword-board__item-label-text">7</span></span>
+			<span id="label-8" class="crossword-board__item-label crossword-board__item-label--8"><span class="crossword-board__item-label-text">8</span></span>
+			<span id="label-9" class="crossword-board__item-label crossword-board__item-label--9"><span class="crossword-board__item-label-text">9</span></span>
+			<span id="label-10" class="crossword-board__item-label crossword-board__item-label--10"><span class="crossword-board__item-label-text">10</span></span>
+			<span id="label-11" class="crossword-board__item-label crossword-board__item-label--11"><span class="crossword-board__item-label-text">11</span></span>
+			<span id="label-12" class="crossword-board__item-label crossword-board__item-label--12"><span class="crossword-board__item-label-text">12</span></span>
+			<span id="label-13" class="crossword-board__item-label crossword-board__item-label--13"><span class="crossword-board__item-label-text">13</span></span>
+			<span id="label-14" class="crossword-board__item-label crossword-board__item-label--14"><span class="crossword-board__item-label-text">14</span></span>
+			<span id="label-15" class="crossword-board__item-label crossword-board__item-label--15"><span class="crossword-board__item-label-text">15</span></span>
+			<span id="label-16" class="crossword-board__item-label crossword-board__item-label--16"><span class="crossword-board__item-label-text">16</span></span>
+			<span id="label-17" class="crossword-board__item-label crossword-board__item-label--17"><span class="crossword-board__item-label-text">17</span></span>
+			<span id="label-18" class="crossword-board__item-label crossword-board__item-label--18"><span class="crossword-board__item-label-text">18</span></span>
+			<span id="label-19" class="crossword-board__item-label crossword-board__item-label--19"><span class="crossword-board__item-label-text">19</span></span>
+
+		</div>
+
+		<div class="crossword-clues">
+
+			<dl class="crossword-clues__list crossword-clues__list--across">
+				<dt class="crossword-clues__list-title">ヨコの鍵</dt>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-1" data-number="1">_厳_めしい老紳士</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-3" data-number="3">水面に_揺蕩_う船</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-6" data-number="6">_所縁_の地を巡る</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-8" data-number="8">_夥_しい数</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-10" data-number="10">両手を_擦_り合わせる</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-13" data-number="13">耳を_欹_てる</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-15" data-number="15">_咄嗟_の出来事</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-17" data-number="17">_歯朶_の葉に積む雪落ちんとして落ちず(山口誓子)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-18" data-number="18">退屈な毎日に_倦_む</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-19" data-number="19">_毳毳_しい服装</dd>
+			</dl>
+
+			<dl class="crossword-clues__list crossword-clues__list--down">
+				<dt class="crossword-clues__list-title">タテの鍵</dt>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-2" data-number="2">_囂_しい人々</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-4" data-number="4">_由々_しき大事件</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-5" data-number="5">外灯に虫が_集_る</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-7" data-number="7">_凛々_しい いでたち</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-8" data-number="8">代表で話すなんて_烏滸_がましい</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-9" data-number="9">熱があって_怠_い</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-11" data-number="11">店に_屡_やってくる客</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-12" data-number="12">_素っ気_ない態度</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-14" data-number="14">小さい子のように_駄々_をこねる</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-16" data-number="16">あっさり_捌_けた人</dd>
+			</dl>
+
+		</div>
+
+
+		<div class="crossword-complete">
+		よくできました！
+		</div>
+
+	</div>
+
+</div>
+  
+  
+</div>
+</body>
+
+</html>
