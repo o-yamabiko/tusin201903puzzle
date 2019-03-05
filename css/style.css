@@ -6,7 +6,7 @@
 }
 
 #item1-3, #item1-4, #item1-5, #item1-6, #item1-7 {
-  background-color: rgba(250, 116, 188, 0.2);
+  background-color: rgba(250, 116, 188, 0.1);
 }
 /***********************************************************/
 /*** final keyword cells end                               */
@@ -25,10 +25,10 @@
   z-index: 1;
   background: transparent;
   border: 0;
-  width: 400px;
-  height: 450px;
+  width: 390px;
+  height: 439px;
   display: grid;
-  grid-template: repeat(10, 11.11111111%)/repeat(8, 12.5%);
+  grid-template: repeat(10, 10%)/repeat(8, 12.5%);
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
@@ -515,13 +515,25 @@
 
 .crossword-clues {
   position: absolute;
-  top: 1em;
-  left: 404px;
+  top: 0;
+  left: 400px;
   padding: 1em;
   width: 400px;
-  height: 100%;
+  height: 400px;
   overflow-y: auto;
   background: #EEEEEE;
+}
+
+.crossword-clues-forprint {
+  position: absolute;
+  top: -160px;
+  left: 400px;
+  padding: 1em;
+  width: 400px;
+  height: auto;
+  overflow-y: visible;
+  background: #FFFFFF;
+  font-size: small;
 }
 
 .crossword-clues__list {
@@ -1103,7 +1115,7 @@
 .crossword-complete {
   position: absolute;
   z-index: 1000;
-  top: 50px;
+  top: 40px;
   left: 0;
   font-size: 2em;
   font-weight: bold;
