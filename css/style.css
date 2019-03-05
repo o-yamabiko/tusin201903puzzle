@@ -515,8 +515,8 @@
 
 .crossword-clues {
   position: absolute;
-  top: 0;
-  left: 400px;
+  top: 1em;
+  left: 404px;
   padding: 1em;
   width: 400px;
   height: 100%;
@@ -1154,11 +1154,12 @@
 
 
 .container {
-width: 500px;
+width: 810px;
+margin: 0 10px 10px 10px;
 }
 
 .crossword-intro {
-  width: 280px;
+  width: 400px;
   margin-bottom: 2em;
 }
 
